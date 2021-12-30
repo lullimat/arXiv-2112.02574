@@ -1,5 +1,5 @@
-from collabs.TolmanLengthSCMC.LBM_proxy import ShanChenMultiComponent
-from collabs.TolmanLengthSCMC.LBM_proxy import CheckCenterOfMassDeltaPConvergence
+from LBM_proxy import ShanChenMultiComponent
+from LBM_proxy import CheckCenterOfMassDeltaPConvergence
 
 from idpy.LBM.SCThermo import ShanChanEquilibriumCache, ShanChen
 from idpy.LBM.LBM import XIStencils, FStencils, CheckUConvergence, NPT, LBMTypes
