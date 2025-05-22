@@ -442,7 +442,7 @@ class ShanChenMultiComponent(IdpySims):
         now the loop: need to implement the exit condition
         '''
         old_step = 0
-        for step in time_steps:
+        for step in time_steps[1:]:
             print(step, step - old_step)
             self._MainLoop.Run(range(step - old_step))
             old_step = step
